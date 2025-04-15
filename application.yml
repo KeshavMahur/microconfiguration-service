@@ -1,11 +1,11 @@
-
-application:
-    name: configserver
-
-eureka:
-  instance:
-    prefer-ip-address: true
-
-  client:
-    service-url:
-      defaultZone: http://localhost:8084/eureka/
+spring:
+    application:
+        name: configserver
+    
+    eureka:
+      instance:
+        prefer-ip-address: true
+    
+      client:
+        service-url:
+          defaultZone: http://localhost:8084/eureka/
